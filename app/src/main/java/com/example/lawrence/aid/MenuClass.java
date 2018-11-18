@@ -13,7 +13,7 @@ public class MenuClass extends AppCompatActivity {
         setContentView(R.layout.menu);
     }
 
-    public void hotLines(View v){
+    public void hotLines(View view){
         Intent i = new Intent(this, hLines.class);
         startActivity(i);
     }

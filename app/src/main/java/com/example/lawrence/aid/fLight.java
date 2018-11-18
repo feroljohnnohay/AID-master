@@ -1,5 +1,6 @@
 package com.example.lawrence.aid;
 
+import android.content.Intent;
 import android.hardware.camera2.CameraManager;
 import android.os.Build;
 import android.os.Bundle;
@@ -76,5 +77,10 @@ public class fLight extends AppCompatActivity {
         } catch (Exception e){
             e.printStackTrace();
         }
+    }
+
+    public void backButtonFlashlight(View v){
+        Intent i = new Intent(this, MenuClass.class);
+        startActivity(i);
     }
 }
