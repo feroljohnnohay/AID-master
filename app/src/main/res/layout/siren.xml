@@ -20,6 +20,7 @@
             android:layout_width="50dp"
             android:layout_height="0dp"
             android:background="#2f7a9a"
+            android:onClick="backButtonSi"
             android:scaleType="fitCenter"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"

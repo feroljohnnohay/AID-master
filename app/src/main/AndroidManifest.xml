@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.lawrence.aid">
-    <!--For the flashlight-->
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="android.permission.FLASHLIGHT"/>
-    <uses-feature android:name="android.hardware.camera" />
-    <uses-feature android:name="android.hardware.camera.flash"/>
-    <!--For the flashlight-->
+
 
     <application
         android:allowBackup="true"
@@ -26,9 +21,16 @@
         <activity android:name=".MenuClass"/>
         <activity android:name=".fLight"/>
         <activity android:name=".hLines"/>
+        <activity android:name=".sirenClass"/>
+        <activity android:name=".compass"/>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
     </application>
-
+    <!--For the flashlight-->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.flash"/>
+    <!--For the flashlight-->
 </manifest>

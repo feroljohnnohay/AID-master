@@ -22,4 +22,14 @@ public class MenuClass extends AppCompatActivity {
         Intent i = new Intent(this, fLight.class);
         startActivity(i);
     }
+
+    public void Compass(View v){
+        Intent i = new Intent(this,compass.class);
+        startActivity(i);
+    }
+
+    public void siren(View v){
+        Intent i = new Intent(this,sirenClass.class);
+        startActivity(i);
+    }
 }
