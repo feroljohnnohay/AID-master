@@ -14,8 +14,8 @@ public class MenuClass extends AppCompatActivity {
     }
 
     public void hotLines(View view){
-        Intent i = new Intent(this, hLines.class);
-        startActivity(i);
+        Intent intent = new Intent(this, hLines.class);
+        startActivity(intent);
     }
 
     public void flashLight(View v){
@@ -30,6 +30,11 @@ public class MenuClass extends AppCompatActivity {
 
     public void siren(View v){
         Intent i = new Intent(this,sirenClass.class);
+        startActivity(i);
+    }
+
+    public void kits(View v){
+        Intent i = new Intent(this,items.class);
         startActivity(i);
     }
 }

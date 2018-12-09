@@ -23,6 +23,7 @@
         <activity android:name=".hLines"/>
         <activity android:name=".sirenClass"/>
         <activity android:name=".compass"/>
+        <activity android:name=".items"/>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

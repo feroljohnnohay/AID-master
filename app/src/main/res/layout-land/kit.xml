@@ -107,7 +107,7 @@
                         app:srcCompat="@drawable/icon" />
 
                     <TextView
-                        android:id="@+id/textView21"
+                        android:id="@+id/item_name"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
@@ -134,7 +134,7 @@
                         android:textSize="18sp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/textView21"
+                        app:layout_constraintTop_toBottomOf="@+id/item_name"
                         tools:layout_editor_absoluteX="225dp"
                         tools:layout_editor_absoluteY="54dp" />
                 </LinearLayout>
@@ -161,7 +161,7 @@
             android:layout_height="wrap_content">
 
             <ImageButton
-                android:id="@+id/imageButton9"
+                android:id="@+id/alcohol_id"
                 android:layout_width="77dp"
                 android:layout_height="73dp"
                 android:layout_marginEnd="8dp"
@@ -170,13 +170,13 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:scaleType="fitEnd"
-                app:layout_constraintEnd_toStartOf="@+id/imageButton11"
+                app:layout_constraintEnd_toStartOf="@+id/gauze_id"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/alcohol" />
 
             <ImageButton
-                android:id="@+id/imageButton10"
+                android:id="@+id/bandaid_id"
                 android:layout_width="77dp"
                 android:layout_height="73dp"
                 android:layout_marginEnd="8dp"
@@ -185,13 +185,13 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:scaleType="fitCenter"
-                app:layout_constraintEnd_toStartOf="@+id/imageButton12"
-                app:layout_constraintStart_toEndOf="@+id/imageButton11"
+                app:layout_constraintEnd_toStartOf="@+id/battery_id"
+                app:layout_constraintStart_toEndOf="@+id/gauze_id"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/bandaid" />
 
             <ImageButton
-                android:id="@+id/imageButton11"
+                android:id="@+id/gauze_id"
                 android:layout_width="77dp"
                 android:layout_height="73dp"
                 android:layout_marginEnd="8dp"
@@ -200,13 +200,13 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:scaleType="fitCenter"
-                app:layout_constraintEnd_toStartOf="@+id/imageButton10"
-                app:layout_constraintStart_toEndOf="@+id/imageButton9"
+                app:layout_constraintEnd_toStartOf="@+id/bandaid_id"
+                app:layout_constraintStart_toEndOf="@+id/alcohol_id"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/bandage" />
 
             <ImageButton
-                android:id="@+id/imageButton12"
+                android:id="@+id/battery_id"
                 android:layout_width="77dp"
                 android:layout_height="73dp"
                 android:layout_marginEnd="16dp"
@@ -216,12 +216,12 @@
                 android:layout_marginTop="8dp"
                 android:scaleType="fitCenter"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageButton10"
+                app:layout_constraintStart_toEndOf="@+id/bandaid_id"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/battery" />
 
             <ImageButton
-                android:id="@+id/imageButton13"
+                android:id="@+id/candle_id"
                 android:layout_width="77dp"
                 android:layout_height="73dp"
                 android:layout_marginEnd="8dp"
@@ -230,13 +230,13 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:scaleType="fitEnd"
-                app:layout_constraintEnd_toStartOf="@+id/imageButton14"
+                app:layout_constraintEnd_toStartOf="@+id/flashlight_id"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageButton9"
+                app:layout_constraintTop_toBottomOf="@+id/alcohol_id"
                 app:srcCompat="@drawable/candle" />
 
             <ImageButton
-                android:id="@+id/imageButton14"
+                android:id="@+id/flashlight_id"
                 android:layout_width="77dp"
                 android:layout_height="73dp"
                 android:layout_marginEnd="8dp"
@@ -245,13 +245,13 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:scaleType="fitEnd"
-                app:layout_constraintEnd_toStartOf="@+id/imageButton15"
-                app:layout_constraintStart_toEndOf="@+id/imageButton13"
-                app:layout_constraintTop_toBottomOf="@+id/imageButton11"
+                app:layout_constraintEnd_toStartOf="@+id/can_id"
+                app:layout_constraintStart_toEndOf="@+id/candle_id"
+                app:layout_constraintTop_toBottomOf="@+id/gauze_id"
                 app:srcCompat="@drawable/flashlightkit" />
 
             <ImageButton
-                android:id="@+id/imageButton15"
+                android:id="@+id/can_id"
                 android:layout_width="77dp"
                 android:layout_height="73dp"
                 android:layout_marginEnd="8dp"
@@ -260,13 +260,13 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:scaleType="fitEnd"
-                app:layout_constraintEnd_toStartOf="@+id/imageButton16"
-                app:layout_constraintStart_toEndOf="@+id/imageButton14"
-                app:layout_constraintTop_toBottomOf="@+id/imageButton11"
+                app:layout_constraintEnd_toStartOf="@+id/gloves_id"
+                app:layout_constraintStart_toEndOf="@+id/flashlight_id"
+                app:layout_constraintTop_toBottomOf="@+id/gauze_id"
                 app:srcCompat="@drawable/food" />
 
             <ImageButton
-                android:id="@+id/imageButton16"
+                android:id="@+id/gloves_id"
                 android:layout_width="77dp"
                 android:layout_height="73dp"
                 android:layout_marginEnd="16dp"
@@ -276,12 +276,12 @@
                 android:layout_marginTop="8dp"
                 android:scaleType="fitEnd"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageButton15"
-                app:layout_constraintTop_toBottomOf="@+id/imageButton12"
+                app:layout_constraintStart_toEndOf="@+id/can_id"
+                app:layout_constraintTop_toBottomOf="@+id/battery_id"
                 app:srcCompat="@drawable/gloves" />
 
             <ImageButton
-                android:id="@+id/imageButton17"
+                android:id="@+id/matches_id"
                 android:layout_width="77dp"
                 android:layout_height="73dp"
                 android:layout_marginEnd="8dp"
@@ -290,13 +290,13 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:scaleType="fitEnd"
-                app:layout_constraintEnd_toStartOf="@+id/imageButton18"
+                app:layout_constraintEnd_toStartOf="@+id/medicine_id"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageButton13"
+                app:layout_constraintTop_toBottomOf="@+id/candle_id"
                 app:srcCompat="@drawable/match" />
 
             <ImageButton
-                android:id="@+id/imageButton18"
+                android:id="@+id/medicine_id"
                 android:layout_width="77dp"
                 android:layout_height="73dp"
                 android:layout_marginEnd="8dp"
@@ -305,13 +305,13 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:scaleType="fitEnd"
-                app:layout_constraintEnd_toStartOf="@+id/imageButton19"
-                app:layout_constraintStart_toEndOf="@+id/imageButton17"
-                app:layout_constraintTop_toBottomOf="@+id/imageButton14"
+                app:layout_constraintEnd_toStartOf="@+id/scissors_id"
+                app:layout_constraintStart_toEndOf="@+id/matches_id"
+                app:layout_constraintTop_toBottomOf="@+id/flashlight_id"
                 app:srcCompat="@drawable/medicine" />
 
             <ImageButton
-                android:id="@+id/imageButton19"
+                android:id="@+id/scissors_id"
                 android:layout_width="77dp"
                 android:layout_height="73dp"
                 android:layout_marginEnd="8dp"
@@ -320,13 +320,13 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:scaleType="fitEnd"
-                app:layout_constraintEnd_toStartOf="@+id/imageButton20"
-                app:layout_constraintStart_toEndOf="@+id/imageButton18"
-                app:layout_constraintTop_toBottomOf="@+id/imageButton14"
+                app:layout_constraintEnd_toStartOf="@+id/tape_id"
+                app:layout_constraintStart_toEndOf="@+id/medicine_id"
+                app:layout_constraintTop_toBottomOf="@+id/flashlight_id"
                 app:srcCompat="@drawable/scissors" />
 
             <ImageButton
-                android:id="@+id/imageButton20"
+                android:id="@+id/tape_id"
                 android:layout_width="77dp"
                 android:layout_height="73dp"
                 android:layout_marginEnd="16dp"
@@ -336,12 +336,12 @@
                 android:layout_marginTop="8dp"
                 android:scaleType="fitEnd"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageButton19"
-                app:layout_constraintTop_toBottomOf="@+id/imageButton16"
+                app:layout_constraintStart_toEndOf="@+id/scissors_id"
+                app:layout_constraintTop_toBottomOf="@+id/gloves_id"
                 app:srcCompat="@drawable/tape" />
 
             <ImageButton
-                android:id="@+id/imageButton21"
+                android:id="@+id/tissue_id"
                 android:layout_width="77dp"
                 android:layout_height="73dp"
                 android:layout_marginBottom="8dp"
@@ -352,13 +352,13 @@
                 android:layout_marginTop="8dp"
                 android:scaleType="fitEnd"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/imageButton22"
+                app:layout_constraintEnd_toStartOf="@+id/umbrella_id"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageButton17"
+                app:layout_constraintTop_toBottomOf="@+id/matches_id"
                 app:srcCompat="@drawable/tissue" />
 
             <ImageButton
-                android:id="@+id/imageButton22"
+                android:id="@+id/umbrella_id"
                 android:layout_width="77dp"
                 android:layout_height="73dp"
                 android:layout_marginBottom="8dp"
@@ -369,13 +369,13 @@
                 android:layout_marginTop="8dp"
                 android:scaleType="fitEnd"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/imageButton23"
-                app:layout_constraintStart_toEndOf="@+id/imageButton21"
-                app:layout_constraintTop_toBottomOf="@+id/imageButton18"
+                app:layout_constraintEnd_toStartOf="@+id/water_id"
+                app:layout_constraintStart_toEndOf="@+id/tissue_id"
+                app:layout_constraintTop_toBottomOf="@+id/medicine_id"
                 app:srcCompat="@drawable/umbrella" />
 
             <ImageButton
-                android:id="@+id/imageButton23"
+                android:id="@+id/water_id"
                 android:layout_width="77dp"
                 android:layout_height="73dp"
                 android:layout_marginBottom="8dp"
@@ -387,8 +387,8 @@
                 android:scaleType="fitEnd"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/imageButton24"
-                app:layout_constraintStart_toEndOf="@+id/imageButton22"
-                app:layout_constraintTop_toBottomOf="@+id/imageButton19"
+                app:layout_constraintStart_toEndOf="@+id/umbrella_id"
+                app:layout_constraintTop_toBottomOf="@+id/scissors_id"
                 app:srcCompat="@drawable/water" />
 
             <ImageButton
@@ -404,8 +404,8 @@
                 android:scaleType="fitEnd"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageButton23"
-                app:layout_constraintTop_toBottomOf="@+id/imageButton20"
+                app:layout_constraintStart_toEndOf="@+id/water_id"
+                app:layout_constraintTop_toBottomOf="@+id/tape_id"
                 app:srcCompat="@drawable/water" />
         </android.support.constraint.ConstraintLayout>
     </ScrollView>
