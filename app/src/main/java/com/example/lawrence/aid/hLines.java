@@ -13,6 +13,16 @@ public class hLines extends AppCompatActivity {
     }
 
 
+    @Override
+    protected void onResume(){
+        super.onResume();
+    }
+
+    @Override
+    protected void onStop(){
+        super.onStop();
+        finish();
+    }
 
     public void backButton(View v){
         Intent i = new Intent(this, MenuClass.class);
